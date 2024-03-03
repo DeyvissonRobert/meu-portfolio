@@ -582,8 +582,8 @@ h3.my-profession {
 
 .service .service-item {
     margin-bottom: 30px;
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .service .service-item .service-item-inner {
@@ -835,5 +835,9 @@ h3.my-profession {
     .about .about-content .personal-info {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+
+    .email {
+        font-size: 15px;
     }
 }
