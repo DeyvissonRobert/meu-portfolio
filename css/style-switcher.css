@@ -66,6 +66,14 @@
     border: 1px solid red;
 }
 
+.style-switcher .colors span:hover {
+    cursor: grab;
+}
+
+.style-switcher .colors span:active {
+    cursor: grabbing;
+}
+
 .style-switcher .color-1 {
     background: #ec1839;
 }
